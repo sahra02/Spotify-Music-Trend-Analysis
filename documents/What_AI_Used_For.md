@@ -36,3 +36,20 @@ _import modGlobal_
 _import modETL_Library as modETL_
 
 This works so used it everwhere!
+
+**Scenatio Two**
+
+Attempting to get bottom 20 songs into a sunburst plot got strange ZeroDivison error
+
+Asked chatGPT:
+
+
+chatGpt responded with changing ines of code to:
+
+dfSpotify_DataSet_Temp["count"] = 1
+
+_fig = px.sunburst(dfSpotify_DataSet_Temp.head(20), path=["artists", "album_name", "track_name"], values="count",_ _color="popularity", color_continuous_scale='Viridis', title='Bottom 20 Songs by Popularity Sunburst Plot')_
+
+Which fixed the issue
+
+
