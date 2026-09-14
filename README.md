@@ -116,6 +116,12 @@ The ETL process included:
 
 The cleaned visualisation dataset contained **113,999 records**.
 
+### ETL Cleaning Process
+
+The ETL process removed the record containing missing artist, album and track information and removed unnecessary identifier/index columns before the cleaned dataset was exported.
+
+![ETL Cleaning Process](assets/images/etl_cleaning_process.png)
+
 ### Dashboard Data Preparation
 
 An additional preparation stage was completed before the data was loaded into Tableau.
