@@ -54,7 +54,7 @@ The project uses the **Spotify Tracks Dataset** available through Kaggle.
 The original dataset contained:
 
 - **114,000 rows**
-- **22 columns**
+- **21 columns**
 - **114 music genres**
 
 The dataset contains track-level information including:
@@ -535,13 +535,15 @@ Roger was mainly responsible for:
 
 Adam was mainly responsible for:
 
-- Carrying out additional exploratory analysis using the final dashboard dataset.
-- Supporting the exploratory analysis.
-- Reviewing results produced from the analysis notebooks.
-- Helping interpret findings from the Spotify data.
-- Discussing patterns and observations found during the analysis.
+- Carrying out additional exploratory data analysis using the final dashboard dataset.
+- Comparing the raw Spotify dataset with the final dashboard-ready dataset.
+- Reviewing the changes made during the data preparation process.
+- Exploring the distribution of explicit and non-explicit tracks.
+- Comparing average popularity between explicit and non-explicit tracks.
+- Analysing the Top 10 genres by average popularity.
+- Creating supporting Python visualisations using Seaborn and Matplotlib.
+- Interpreting patterns and observations from the exploratory analysis.
 - Working with Roger on the analytical findings.
-- Helping decide which findings were most useful to communicate.
 - Contributing to team discussions and check-ins.
 - Supporting preparation for the final presentation.
 
@@ -980,6 +982,6 @@ More detailed AI usage is documented in:
 
 ## Acknowledgements
 
-We would like to thank Code Institute and our bootcamp facilitators for providing the hackathon brief, guidance and support throughout the project.
+We would like to thank Code Institute and our bootcamp facilitator for providing the hackathon brief, guidance and support throughout the project.
 
 We would also like to thank each member of the team for contributing to the project and helping us complete the work within the four-day hackathon.
